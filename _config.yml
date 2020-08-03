@@ -1,13 +1,13 @@
 # Site settings
 title: Fisicos en la Industria 4.0
-description: "Caminos para llegar a ser CRACK"
+description: "Caminos para llegar a ser CRACK verdad?"
 url: "/FisicosIndustriaWEB"
 
 # Secondary Parameters
 baseurl: ""
 header-img: img/home-bg.jpg
 headercolor: "#FFFFFF"
-logo: /FisicosIndustriaWEB/img/logos/Project-Pages-New-Logo-Inverted.png
+logo: img/logos/Project-Pages-New-Logo-Inverted.png
 
 # Tertiary Parameters
 github_username: projectpages
