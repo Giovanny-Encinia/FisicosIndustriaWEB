@@ -32,7 +32,7 @@ defaults:
       type: "pages"
     values:
       layout: "project"
-      header-img: "img/home-bg.jpg"
+      header-img: "img/network.jpg"
 
 # Prose Settings
 prose:

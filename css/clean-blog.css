@@ -2,12 +2,13 @@
 .intro-header .post-heading,
 .intro-header .page-heading {
   padding: 100px 0 50px;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 body {
-  font-family: 'Lora', 'Times New Roman', serif;
+  font-family: "Lora", "Times New Roman", serif;
   font-size: 20px;
   color: #404040;
+  background-color: #007db8;
 }
 p {
   line-height: 1.5;
@@ -18,7 +19,7 @@ p a {
 }
 
 p.red {
-  color: #FF0000;
+  color: #ff0000;
 }
 
 h1,
@@ -27,7 +28,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 800;
 }
 a {
@@ -48,7 +49,7 @@ hr.small {
   max-width: 100px;
   margin: 15px auto;
   border-width: 4px;
-  border-color: #FFFFFF;
+  border-color: #ffffff;
 }
 .navbar-custom {
   background: white;
@@ -57,7 +58,7 @@ hr.small {
   left: 0;
   width: 100%;
   z-index: 3;
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 .navbar-custom .navbar-brand {
   font-weight: 800;
@@ -168,7 +169,7 @@ hr.small {
   font-size: 24px;
   line-height: 1.1;
   display: block;
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 300;
   margin: 10px 0 0;
 }
@@ -187,13 +188,13 @@ hr.small {
   display: block;
 }
 .intro-header .post-heading .subheading {
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 24px;
   margin: 10px 0 30px;
   font-weight: 600;
 }
 .intro-header .post-heading .meta {
-  font-family: 'Lora', 'Times New Roman', serif;
+  font-family: "Lora", "Times New Roman", serif;
   font-style: italic;
   font-weight: 300;
   font-size: 20px;
@@ -305,10 +306,10 @@ footer .copyright {
   vertical-align: middle;
   vertical-align: baseline;
   opacity: 0;
-  -webkit-transition: top 0.3s ease,opacity 0.3s ease;
-  -moz-transition: top 0.3s ease,opacity 0.3s ease;
-  -ms-transition: top 0.3s ease,opacity 0.3s ease;
-  transition: top 0.3s ease,opacity 0.3s ease;
+  -webkit-transition: top 0.3s ease, opacity 0.3s ease;
+  -moz-transition: top 0.3s ease, opacity 0.3s ease;
+  -ms-transition: top 0.3s ease, opacity 0.3s ease;
+  transition: top 0.3s ease, opacity 0.3s ease;
 }
 .floating-label-form-group::not(:first-child) {
   padding-left: 14px;
@@ -325,7 +326,7 @@ form .row:first-child .floating-label-form-group {
   border-top: 1px solid #eeeeee;
 }
 .btn {
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-size: 14px;
   font-weight: 800;
@@ -348,7 +349,7 @@ form .row:first-child .floating-label-form-group {
 }
 .pager li > a,
 .pager li > span {
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-size: 14px;
   font-weight: 800;
@@ -401,64 +402,67 @@ body {
 }
 
 div.notepad-index-post-tags {
-    font-size: 16px;
-    float: none;
-    color: black;
-    padding-top: 1.25rem;
-    padding-bottom: 0.625rem; }
+  font-size: 16px;
+  float: none;
+  color: black;
+  padding-top: 1.25rem;
+  padding-bottom: 0.625rem;
+}
 .notepad-index-post-tags a {
-	display: inline-block;
-	padding: 0.3125rem 0.9375rem;
-	margin-right: 0.1875rem;
-	color: black;
-	border: 0.0625rem solid black;
-	border-radius: 0.125rem;
-	margin-bottom: 0.3125rem; }
+  display: inline-block;
+  padding: 0.3125rem 0.9375rem;
+  margin-right: 0.1875rem;
+  color: black;
+  border: 0.0625rem solid black;
+  border-radius: 0.125rem;
+  margin-bottom: 0.3125rem;
+}
 .notepad-index-post-tags a:hover {
-	color: #e51843;
-	border: 0.0625rem solid #e51843; }
+  color: #e51843;
+  border: 0.0625rem solid #e51843;
+}
 
 table {
-	width:100%;
+  width: 100%;
 }
 
 th {
-	border-bottom-color: black;
-	border-bottom-style: solid;
-	border-bottom-width: 1px;
-	border-collapse: collapse;
+  border-bottom-color: black;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-collapse: collapse;
 }
 
-div.float-right{
-    width:300px;
-    position:fixed;
-    right:0;
-	/* margin-top:50px; */
-	margin-right:2%;
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+div.float-right {
+  width: 300px;
+  position: fixed;
+  right: 0;
+  /* margin-top:50px; */
+  margin-right: 2%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-div.float-left{
-    width:300px;
-    position:fixed;
-    left:0;
-	/* margin-top:50px; */
-	margin-left:2%;
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+div.float-left {
+  width: 300px;
+  position: fixed;
+  left: 0;
+  /* margin-top:50px; */
+  margin-left: 2%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 @media (max-width: 1500px) {
-	div.float-left{
-	display: none !important;
-	}
-	div.float-right{
-	display: none !important;
-	}
+  div.float-left {
+    display: none !important;
+  }
+  div.float-right {
+    display: none !important;
+  }
 }
 
 hr.style-one {
-    border: 0;
-    height: 1px;
-    background: #333;
-    background-image: linear-gradient(to right, #ccc, #333, #ccc);
+  border: 0;
+  height: 1px;
+  background: #333;
+  background-image: linear-gradient(to right, #ccc, #333, #ccc);
 }
