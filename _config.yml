@@ -7,7 +7,7 @@ url: "/FisicosIndustriaWEB"
 baseurl: ""
 header-img: img/home-bg.jpg
 headercolor: "#FFFFFF"
-logo: /project-pages/img/logos/Project-Pages-New-Logo-Inverted.png
+logo: /FisicosIndustriaWEB/img/logos/Project-Pages-New-Logo-Inverted.png
 
 # Tertiary Parameters
 github_username: projectpages
@@ -64,7 +64,11 @@ prose:
       "mentions.html",
       "index.html",
     ]
+<<<<<<< HEAD
   siteurl: "http://projectpages.github.io/project-pages/"
+=======
+  siteurl: "FisicosIndustriaWEB/"
+>>>>>>> master
   ispp: true
   media: "img"
   metadata:
@@ -129,7 +133,7 @@ prose:
       - name: "horizontal"
         field:
           element: "hidden"
-          value: </section></section><section markdown="1" data-background="http://projectpages.github.io/project-pages/img/slidebackground.png"><section markdown="1">
+          value: </section></section><section markdown="1" data-background="FisicosIndustriaWEB/img/slidebackground.png"><section markdown="1">
       - name: "vertical"
         field:
           element: "hidden"
@@ -137,7 +141,7 @@ prose:
       - name: "slideinit"
         field:
           element: "hidden"
-          value: <section markdown="1" data-background="http://projectpages.github.io/project-pages/img/slidebackground.png"><section markdown="1">
+          value: <section markdown="1" data-background="FisicosIndustriaWEB/img/slidebackground.png"><section markdown="1">
       - name: "theme"
         field:
           element: "select"
