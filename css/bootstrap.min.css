@@ -1393,6 +1393,10 @@ pre code {
 }
 #headerContainer {
   background-color: #002638;
+  opacity: 0.9;
+}
+#footerContainer {
+  background-color: #ff8247;
 }
 @media (min-width: 768px) {
   .container {
