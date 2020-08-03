@@ -65,7 +65,7 @@ prose:
       "index.html",
     ]
 
-  siteurl: "FisicosIndustriaWEB/"
+  siteurl: "/FisicosIndustriaWEB"
 
   ispp: true
   media: "img"
