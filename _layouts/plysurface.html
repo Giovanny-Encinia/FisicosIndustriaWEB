@@ -52,7 +52,7 @@
             var mesh
 
             var loader = new THREE.PLYLoader();
-            loader.load( '{{ page.plydata | prepend: site.baseurl }}', function ( geometry ) {
+            loader.load( '{{ page.plydata | prepend: site.url }}', function ( geometry ) {
 
                 geometry.computeBoundingBox()
                 geometry.translate(-((geometry.boundingBox.max.x - geometry.boundingBox.min.x)/2 + geometry.boundingBox.min.x) , -((geometry.boundingBox.max.y - geometry.boundingBox.min.y)/2 + geometry.boundingBox.min.y) , -((geometry.boundingBox.max.z - geometry.boundingBox.min.z)/2 + geometry.boundingBox.min.z));                

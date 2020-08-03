@@ -1609,7 +1609,7 @@ Storage = (function(_super) {
   };
 
   Storage.prototype.requestDatafile = function() {
-    return this.onDatafile("{{ page.dataset | prepend: site.baseurl }}");
+    return this.onDatafile("{{ page.dataset | prepend: site.url }}");
   };
 
   Storage.prototype.requestJSON = function(datafile) {

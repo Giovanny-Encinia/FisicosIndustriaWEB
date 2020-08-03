@@ -31,7 +31,7 @@
 				var link = document.createElement( 'link' );
 				link.rel = 'stylesheet';
 				link.type = 'text/css';
-				link.href = '{{"/css/print/pdf.css" | prepend: site.baseurl}}';
+				link.href = '{{"/css/print/pdf.css" | prepend: site.url}}';
 				document.getElementsByTagName( 'head' )[0].appendChild( link );
 			}
 		</script>
@@ -54,8 +54,8 @@
 			</div>
 		</div>
 		
-		<script src="{{"/lib/js/head.min.js " | prepend: site.baseurl}}"> </script>
-		<script src="{{"/js/reveal.min.js " | prepend: site.baseurl}}"></script>
+		<script src="{{"/lib/js/head.min.js " | prepend: site.url}}"> </script>
+		<script src="{{"/js/reveal.min.js " | prepend: site.url}}"></script>
 	
 		<script>
 
@@ -76,13 +76,13 @@
 
 				// Optional libraries used to extend on reveal.js
 				dependencies: [
-					{ src: '{{"/lib/js/classList.js" | prepend: site.baseurl}}', condition: function() { return !document.body.classList; } },
-					{ src: '{{"/plugin/markdown/marked.js" | prepend: site.baseurl}}', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
-					{ src: '{{"/plugin/markdown/markdown.js" | prepend: site.baseurl}}', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
-					{ src: '{{"/plugin/highlight/highlight.js" | prepend: site.baseurl}}', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
-					{ src: '{{"/plugin/zoom-js/zoom.js" | prepend: site.baseurl}}', async: true, condition: function() { return !!document.body.classList; } },
-					{ src: '{{"/plugin/notes/notes.js" | prepend: site.baseurl}}', async: true, condition: function() { return !!document.body.classList; } },
-        			{ src: '{{"/plugin/math/math.js" | prepend: site.baseurl}}', async: true }
+					{ src: '{{"/lib/js/classList.js" | prepend: site.url}}', condition: function() { return !document.body.classList; } },
+					{ src: '{{"/plugin/markdown/marked.js" | prepend: site.url}}', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: '{{"/plugin/markdown/markdown.js" | prepend: site.url}}', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: '{{"/plugin/highlight/highlight.js" | prepend: site.url}}', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: '{{"/plugin/zoom-js/zoom.js" | prepend: site.url}}', async: true, condition: function() { return !!document.body.classList; } },
+					{ src: '{{"/plugin/notes/notes.js" | prepend: site.url}}', async: true, condition: function() { return !!document.body.classList; } },
+        			{ src: '{{"/plugin/math/math.js" | prepend: site.url}}', async: true }
 				]
 			});
 
