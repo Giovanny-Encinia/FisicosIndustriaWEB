@@ -64,11 +64,9 @@ prose:
       "mentions.html",
       "index.html",
     ]
-<<<<<<< HEAD
-  siteurl: "http://projectpages.github.io/project-pages/"
-=======
+
   siteurl: "FisicosIndustriaWEB/"
->>>>>>> master
+
   ispp: true
   media: "img"
   metadata:
