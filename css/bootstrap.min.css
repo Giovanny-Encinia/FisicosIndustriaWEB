@@ -1392,9 +1392,10 @@ pre code {
   margin-left: auto;
 }
 #headerContainer {
-  background-color: #002638;
-  opacity: 0.9;
+  background-color: rgba(0, 14.9, 21.96, 0.1);
+  opacity: 0.8;
 }
+
 #footerContainer {
   background-color: #ff8247;
 }
